@@ -1,0 +1,20 @@
+[project]
+name = "aireg_env"
+version = "0.1.0"
+description = "Extracting luxury companies"
+
+dependencies = [
+    "numpy>=1.26.0",
+    "pandas>=2.2.0",
+    "ipykernel>=6.25.0",
+    "openpyxl>=3.1.2",
+]
+requires-python = ">=3.12"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools]
+packages = ["data", "aireg_env"]  # Explicitly list your packages

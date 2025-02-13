@@ -1,0 +1,15 @@
+# Virtual environment
+aireg_env/
+aireg_venv.egg-info/
+*.egg-info
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+data/
+.DS_Store
+.ipynb_checkpoints/
+poetry.lock
+*.lock
